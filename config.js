@@ -56,7 +56,7 @@ const DATABASE_URL = process.env.DATABASE_URL || databasePath;
 
 module.exports = {
     PREFIX: process.env.PREFIX || ".",
-    OWNER_NAME: process.env.OWNER_NAME || "isaac khan",
+    isaac: process.env.OWNER_NAME || "isaac khan",
     NUMERO_OWNER: process.env.NUMERO_OWNER || " khans",              
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "yes",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || "no",
